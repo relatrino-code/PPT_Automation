@@ -1,0 +1,10 @@
+numpy
+openpyxl
+pandas
+python-dateutil
+pytz
+pywin32
+google-cloud-dataproc
+python-dotenv
+openai
+python-pptx

@@ -1,0 +1,49 @@
+{
+    "file_paths": {
+      "base_path": "C:\\Users\\askpr\\Downloads\\PPT_Automation\\files",
+      "mobile_installs_report": "Mobile Installs Daily Spend Report.xlsx",
+      "mae_spend_report": "Walmart App MAE Daily Spend.xlsx",
+      "output_report": "SourceExcel.xlsx"
+    },
+    "report_date": "2025-03-17",
+    "sheets": {
+      "channel_campaign_metrics": {
+        "sheet_name": "Channel & Campaign Metrics",
+        "start_row": 6,
+        "week_uid_column": "F",
+        "publisher_spend_mapping": {
+          "Facebook": "AB",
+          "Google": "AC",
+          "Apple Search Ads": "AF",
+          "Inmobi": "AG",
+          "ironSource": "AH"
+        }
+      },
+      "overall_metrics": {
+        "sheet_name": "Overall Metrics",
+        "start_row": 6,
+        "week_uid_column": "F",
+        "platform_spend_mapping": {
+          "Android": "Z",
+          "iOS": "AA"
+        }
+      },
+      "mae_audience_level": {
+        "sheet_name": "MAE - Audience Level Data",
+        "start_row": 8,
+        "week_uid_column": "F",
+        "audience_mapping": {
+          "Google-Android_Predictive Churn": "S",
+          "Google-Android_Low Activity": "T",
+          "Meta-Android_Predictive Churn": "U",
+          "Meta-Android_Low Activity": "V",
+          "Google-IOS_Predictive Churn": "W",
+          "Google-IOS_Low Activity": "X"
+        }
+      }
+    },
+    "adset_patterns": {
+      "predictive_churn": ["predictive\\s*churn", "chrn"],
+      "low_activity": ["low\\s*activity", "mlau"]
+    }
+  }

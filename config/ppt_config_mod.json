@@ -1,0 +1,308 @@
+{
+  "excel_path": "C:\\Users\\askpr\\Downloads\\PPT_Automation\\files\\SourceExcel.xlsx",
+  "ppt_path": "C:\\Users\\askpr\\Downloads\\PPT_Automation\\files\\DeckTemplate.pptx",
+  "ppt_output_path": "C:\\Users\\askpr\\Downloads\\PPT_Automation\\files\\Fully_Automated_PPT.pptx",
+  "ppt_insights_output_path": "C:\\Users\\askpr\\Downloads\\PPT_Automation\\files\\Fully_Automated_PPT(with Insights).pptx",
+  "slides": {
+    "2": {
+      "tables": {
+        "Comparative Performance": {
+          "sheet": "KPI Table",
+          "excel_rows": [
+            75,
+            81
+          ],
+          "excel_cols": [
+            3,
+            11
+          ],
+          "ppt_rows": [
+            3,
+            9
+          ],
+          "ppt_cols": [
+            2,
+            10
+          ]
+        },
+        "Metrics Scorecard": {
+          "sheet": "KPI Table",
+          "excel_rows": [
+            6,
+            15
+          ],
+          "excel_cols": [
+            4,
+            9
+          ],
+          "ppt_rows": [
+            2,
+            11
+          ],
+          "ppt_cols": [
+            3,
+            8
+          ]
+        }
+      },
+      "charts": [
+          {
+            "shape_name": "Chart 23",
+            "chart_type": "Line Chart",
+            "title": "Weekly App Installs",
+            "excel_source": 
+            {
+              "sheet": "Weekly Charts",
+              "excel_range": "H8:L18"
+            }
+          }
+        ]
+    },
+    "3": {
+      "tables": {
+        "Installs Breakout": {
+          "sheet": "KPI Table",
+          "excel_rows": [
+            103,
+            114
+          ],
+          "excel_cols": [
+            3,
+            5
+          ],
+          "ppt_rows": [
+            2,
+            13
+          ],
+          "ppt_cols": [
+            2,
+            4
+          ]
+        }
+      },
+      "charts": [
+          {
+            "shape_name": "Chart 10",
+            "chart_type": "Line Chart",
+            "title": "Organic Installs",
+            "excel_source": 
+            {
+              "sheet": "Weekly Charts",
+              "excel_ranges": ["H26:I37", "L26:L37", "O26:O37"]
+            }
+          },
+          {
+            "shape_name": "Chart 9",
+            "chart_type": "Line Chart",
+            "title": "Paid Installs",
+            "excel_source": 
+            {
+              "sheet": "Weekly Charts",
+              "excel_ranges": ["H26:H37", "J26:J37", "M26:M37", "P26:P37"]
+            }
+          },
+          {
+            "shape_name": "Chart 8",
+            "chart_type": "Line Chart",
+            "title": "Owned Installs",
+            "excel_source": 
+            {
+              "sheet": "Weekly Charts",
+              "excel_ranges": ["H26:H37", "K26:K37", "N26:N37", "Q26:Q37"]
+            }
+          }
+        ]
+    },
+    "4": {
+      "tables": {
+        "Channel-wise Owned Installs": {
+          "sheet": "KPI Table",
+          "excel_rows": [
+            20,
+            32
+          ],
+          "excel_cols": [
+            16,
+            18
+          ],
+          "ppt_rows": [
+            2,
+            14
+          ],
+          "ppt_cols": [
+            1,
+            3
+          ]
+        }
+      },
+      "charts": [
+          {
+            "shape_name": "Chart 2",
+            "chart_type": "Line Chart",
+            "title": "Owned Channel App Install by Source",
+            "excel_source": 
+            {
+              "sheet": "Weekly Charts",
+              "excel_ranges":["H54:N64"]
+            }
+          }
+        ]
+    },
+    "5": {
+      "tables": {
+        "Partner-wise Paid Installs": {
+          "sheet": "KPI Table",
+          "excel_rows": [
+            38,
+            43
+          ],
+          "excel_cols": [
+            3,
+            10
+          ],
+          "ppt_rows": [
+            2,
+            7
+          ],
+          "ppt_cols": [
+            2,
+            9
+          ]
+        }
+      },
+      "charts": [
+          {
+            "shape_name": "Chart 8",
+            "chart_type": "Stacked Bar Chart",
+            "title": "Attributed Paid Installs by Source",
+            "excel_source": 
+            {
+              "sheet": "Weekly Charts",
+              "excel_ranges": ["H69:S79"]
+            }
+          },
+          {
+            "shape_name": "Chart 9",
+            "chart_type": "Bar Chart",
+            "title": "WoW paid Install Variation by Source",
+            "excel_source": 
+            {
+              "sheet": "Weekly Charts",
+              "excel_ranges": ["H82:Q83"]
+            }
+          }
+        ]
+    },
+    "6": {
+      "tables": {
+        "MAE Breakdown": {
+          "sheet": "KPI Table",
+          "excel_rows": [
+            89,
+            96
+          ],
+          "excel_cols": [
+            3,
+            9
+          ],
+          "ppt_rows": [
+            4,
+            11
+          ],
+          "ppt_cols": [
+            2,
+            8
+          ]
+        }
+      },
+      "charts": [
+          {
+            "shape_name": "Chart 25",
+            "chart_type": "Line & Stacked Bar Chart",
+            "title": "Sessions by App Users",
+            "excel_source": 
+            {
+              "sheet": "Weekly Charts",
+              "excel_ranges": ["H88:K98"]
+            }
+          }
+        ]
+    },
+    "7":{
+      "charts": [
+          {
+            "shape_name": "Chart 9",
+            "chart_type": "Line Chart",
+            "title": "Weekly Active Users",
+            "excel_source": 
+            {
+              "sheet": "Weekly Charts",
+              "excel_ranges": ["H103:M113"]
+            }
+          },
+          {
+            "shape_name": "Chart 2",
+            "chart_type": "Bar Chart",
+            "title": "Montly Active Users",
+            "excel_source": 
+            {
+              "sheet": "Weekly Charts",
+              "excel_ranges": ["H136:N138"]
+            }
+          }
+        ]
+    },
+    "8":{
+      "charts": [
+          {
+            "shape_name": "Chart 5",
+            "chart_type": "Line Chart",
+            "title": "New Users",
+            "excel_source": 
+            {
+              "sheet": "Weekly Charts",
+              "excel_ranges": ["H118:H128", "L118:L128", "N118:N128", "R118:R128", "X118:X128"]
+            }
+          },
+          {
+            "shape_name": "Chart 2",
+            "chart_type": "Line Chart",
+            "title": "Current Users",
+            "excel_source": 
+            {
+              "sheet": "Weekly Charts",
+              "excel_ranges": ["H118:H128", "I118:I128", "N118:N128", "O118:O128", "U118:U128"]
+            }
+          },
+          {
+            "shape_name": "Chart 3",
+            "chart_type": "Line Chart",
+            "title": "Reactivated Users",
+            "excel_source": 
+            {
+              "sheet": "Weekly Charts",
+              "excel_ranges": ["H118:H128", "J118:J128", "N118:N128", "P118:P128", "V118:V128"]
+            }
+          }
+        ]
+    }
+  },
+  "insight_placeholders":{
+      "2": "Content Placeholder 14",
+      "4": "Content Placeholder 14",
+      "5": "Content Placeholder 14",
+      "6": "Content Placeholder 14",
+      "7": "Content Placeholder 14",
+      "8": "Content Placeholder 14"
+    },
+    "slide_summary_placeholders":{
+      "2":"Text Placeholder 18",
+      "3":"Text Placeholder 18",
+      "4":"Text Placeholder 18",
+      "5":"Text Placeholder 18",
+      "6":"Text Placeholder 18",
+      "7":"Text Placeholder 18",
+      "8":"Text Placeholder 18"
+    }
+}
+
